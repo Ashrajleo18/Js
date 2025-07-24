@@ -4,8 +4,12 @@ const salary = 50000
 
 console.log(`Hello ${name} your salay is ${salary}`)
 
-console.log(name.charAt(4));// charAt return charter Position in string
-console.log(name.concat(" ", lastname)); // concat join the 2 string 
+console.log("The 4th charcter in string is = ",name.charAt(4));// charAt return charter Position in string
+console.log("the index of R in string is =",name.indexOf('R')); //indexOf method return the postion
+
+
+
+console.log("To join to variable use concat = ",name.concat(" ", lastname)); // concat join the 2 string 
 
 console.log(name.toUpperCase());
 console.log(name.length)
@@ -15,5 +19,16 @@ let myvalue = num.toFixed() // to Fixed convert number to string
 console.log(typeof myvalue);
 
 const mytext = "Hello audience how are you"
-const find = mytext.includes("audience") // includes return the boolean value (true, false) depending on result
-console.log(find);
+const findtext = mytext.includes("audience") // includes return the boolean value (true, false) depending on result
+console.log(findtext);
+
+console.log(mytext.lastIndexOf("how")) // find th postion of text in string
+
+console.log(mytext.replace("audience","guys")) // use of replace method
+
+mystring = "My last Name is";
+
+console.log(mystring+="Rawat"); 
+
+console.log(mystring.substring(0,7))// Substring method extracts characters, between two positions
+
