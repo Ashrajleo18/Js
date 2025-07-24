@@ -55,3 +55,6 @@ findwww = url.includes("www");
 console.log( findwww,
 (findwww !=true) ? ("not enter www") : ("you have enter www")
 )
+
+mynewstr = "Hello-To-My Friends"
+console.log(mynewstr.split("-"))
