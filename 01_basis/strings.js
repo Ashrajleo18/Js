@@ -26,9 +26,32 @@ console.log(mytext.lastIndexOf("how")) // find th postion of text in string
 
 console.log(mytext.replace("audience","guys")) // use of replace method
 
-mystring = "My last Name is";
+mystring = "Ashrajleo";
+console.log(mystring.length);
 
-console.log(mystring+="Rawat"); 
+console.log(mystring+="Rawat");// AshrajleoRawat
 
 console.log(mystring.substring(0,7))// Substring method extracts characters, between two positions
+console.log(mystring.slice(5,9)) //jleo
 
+somestr = "     fog   ";
+console.log(somestr.trim());//Fog
+
+url = "w1ww.javascript%20tutorial.*com9"
+console.log(url.replace("%20","-")) ///www.javascript-tutorial.com
+
+findcom = url.includes(".com");
+console.log(findcom)
+
+if (findcom !=true){
+
+    console.log ("enter correct url");
+}
+else{
+    console.log("please continue");
+}
+// Use of Ternary operator to do same thing
+findwww = url.includes("www");
+console.log( findwww,
+(findwww !=true) ? ("not enter www") : ("you have enter www")
+)
