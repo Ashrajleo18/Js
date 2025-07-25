@@ -7,7 +7,7 @@ let newnumber = num
 console.log("newnumber =",typeof newnumber)
 console.log("num =",typeof num)
 
-// How to get number in between range
+// How to get Random number in between range
 
 min = 10;
 max = 20;
