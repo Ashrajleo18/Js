@@ -1,5 +1,5 @@
-const myarr1 = [1,2,3,4,5]; // defin array
-const myarr2 = new Array (1,2,3,4,5); // defin array
+const myarr1 = [1,2,3,4,5]; // define array
+const myarr2 = new Array (1,2,3,4,5); // define array
 
 //console.log(myarr1);
 

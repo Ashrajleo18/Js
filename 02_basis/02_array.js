@@ -19,7 +19,7 @@ const formatArr = someArr.flat(Infinity); // Flat function to convert nested arr
 
 
 function checksomething(){
-    return [1,3,5,6]
+    return [1,3,4,4]
 }
 const checkFunction = checksomething();
 //console.log("Function return is " ,checkFunction)
@@ -28,6 +28,7 @@ const checkFunction = checksomething();
 
 if(!Array.isArray(checkFunction)){
     console.log("Not a Array")
+    
     }
     else{
         console.log("Array Object")
@@ -42,8 +43,13 @@ if (result !== true) {
     console.log("Not a Array");
 
 } else
- {    
+ {     
     console.log("Array Object");
+    if (checkFunction.length === 0) {
+    console.log("Empty array");
+} else {
+    console.log("Array with items");
+}
 }
 
 /////////////////////////////What is Array.from() ////////////////////
