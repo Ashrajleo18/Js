@@ -1,6 +1,17 @@
 const oldHero = ["Raj kumar", "Ashok Kumar", "Devananad", "Sunil Datt", "Dilip Kumar"]
 const newHero = ["Salman khan", "Shah rukh Khan", "Aamir Khan", "Govinda"]
 
+// const printhero = oldHero.forEach((heroname)=>{
+//     console.log(heroname);
+// })
+
+const getnewhero = newHero.map((heroname,index,arr)=>{
+    return `${index+1} Array the length is = ${arr.length},The heroname is ${heroname}`
+})
+console.log(getnewhero);
+
+
+
 //oldHero.push(newHero); // problem when we try to push one array inside another array
 
 //console.log(oldHero);
